@@ -46,3 +46,51 @@ Svelte n'utilise pas de Virtual DOM. C'est un compilateur.
     Limites :
 
         Moins de flexibilité dynamique : Comme tout est décidé à la compilation, il est parfois plus complexe de créer des structures de composants totalement imprévisibles générées à la volée.
+
+Donc En gros pour faire simple, React, Vue.js et Svelte sont des frameworks diamétralement différents:
+
+React n'est pas un framework complet mais une bibliothèque (litteralement).
+
+    Flexibilité dynamique : C'est le plus permissif. Comme il utilise le JSX, on peux manipuler les composants comme de simples variables.
+
+    Contrôle du DOM : Utilise le Virtual DOM. Les mises à jour sont gérées via un cycle de ré-exécution des fonctions (le "re-render" ou diffing).
+
+    Structure : Très libre. Il n'y a pas de dossier "officiel" pour les composants. Tout est basé sur les Hooks (useState, useEffect).
+
+    Gestion du CSS :
+
+        CSS-in-JS : Très populaire (Styled Components, Emotion).
+
+        Utilitaire : Domination massive de Tailwind CSS.
+
+        Modules : Fichiers .module.css pour isoler les styles.
+
+    Ressources : Immenses. Si il a un bug, la solution existe déjà sur StackOverflow ou via une IA.
+
+Vue (l'entre deux il s'assume pas trop) Il offre un cadre plus structuré cependant.
+
+    Flexibilité & DOM : Comme React, il utilise un Virtual DOM. La réactivité est gérée par des "Proxies" JavaScript qui surveillent les changements de données.
+
+    Système de composants : Utilise les fichiers .vue avec trois blocs distincts : <template>, <script> (souvent avec la Composition API) et <style>.
+
+    Routing & État : Contrairement à React, Vue propose des solutions "officielles" (Vue Router, Pinia pour l'état) qui sont parfaitement intégrées et maintenues.
+
+    Gestion du CSS :
+
+        Scoped CSS : Natif et très puissant via la balise <style scoped>. Le framework s'occupe de l'isolation automatiquement.
+
+        Support natif : Très facile d'intégrer du SASS/LESS directement dans le composant.
+
+Svelte change radicalement la donne (le chouchou des devs).
+
+    Approche unique : Ce n'est pas une bibliothèque qu'on appelle, c'est un compilateur. Il transforme le code en JavaScript natif qui manipule directement le DOM sans passer par un intermédiaire (pas de Virtual DOM).
+
+    Réactivité chirurgicale : Avec Svelte 5 et les Runes ($state), la réactivité est explicite. On ne dis pas "re-render tout le composant", le compilateur sait exactement quelle ligne de HTML modifier.
+
+    Système de fichiers : Utilise .svelte. Très proche du HTML standard. Pas besoin de fonctions complexes pour gérer les boucles ou les conditions ({#each}, {#if}).
+
+    Gestion du CSS :
+
+        Isolation totale par défaut : Le CSS est automatiquement "scopé" au composant.
+
+        Optimisation : Le compilateur supprime automatiquement les règles CSS que tu n'utilises pas dans ton fichier, réduisant ainsi le poids final.
