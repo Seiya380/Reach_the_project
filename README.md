@@ -5,4 +5,4 @@ The goal of this repository is to improve my skills in frameworks and working on
 First step :
 I will look at React, Vue.js and svelte.
 
-Status: I decide to try the svelte framework on their website.
+Status: I recheck the vue framework on their website.
