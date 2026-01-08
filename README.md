@@ -29,7 +29,7 @@ Selon
 
     Pourquoi l'utiliser : C'est extrêmement flexible. Tu peux manipuler ton interface comme des objets JavaScript purs sans te soucier de la performance brute, car les frameworks "optimisent" les changements pour toi.
 
-    Limites : \* Coût à l'exécution (Runtime) : Le navigateur doit charger le moteur du framework (le "comparateur") et effectuer des calculs de comparaison à chaque changement. (voila pourquoi parfois les sites chargent a fond)
+    Limites : Coût à l'exécution (Runtime) : Le navigateur doit charger le moteur du framework (le "comparateur") et effectuer des calculs de comparaison à chaque changement. (voila pourquoi parfois les sites chargent a fond)
 
         Mémoire : Tu gardes deux versions de l'interface en mémoire (le vrai DOM et le virtuel).
 
@@ -39,7 +39,7 @@ Svelte n'utilise pas de Virtual DOM. C'est un compilateur.
 
     Le concept : Tout le travail de "comparaison" se fait au moment où tu compiles ton code (avant d'envoyer le site sur internet). Svelte analyse ton code et génère des instructions JavaScript ultra-précises du type : "Si la variable count change, mets à jour uniquement le contenu de ce <span> précis".
 
-    Pourquoi l'utiliser : * Performance brute : Pas de calculs de comparaison dans le navigateur. Les mises à jour sont chirurgicales et instantanées.
+    Pourquoi l'utiliser : Performance brute : Pas de calculs de comparaison dans le navigateur. Les mises à jour sont chirurgicales et instantanées.
 
         Légèreté : Le site est beaucoup plus petit car tu n'envoies pas le "moteur" du framework à l'utilisateur, seulement ton code converti.
 

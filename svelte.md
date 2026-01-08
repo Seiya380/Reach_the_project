@@ -1,16 +1,18 @@
-I'm actually do the tutorial from the framework svelte.
+Voici la traduction de ton message initial en français :
 
-It seems that CSS is separated for each component.
+« Je suis actuellement en train de suivre le tutoriel du framework Svelte.
 
-It seems that we can use html string with {@html string} on the variable string.
+Il semble que le CSS soit isolé (scopé) pour chaque composant.
 
-<p>{@html string}</p>
+Il semble aussi que l'on puisse utiliser des chaînes de caractères HTML avec la syntaxe {@html chaine} sur une variable de type string :
 
-I now being in advanced of the tutorial.
+<p>{@html chaine}</p>
 
-I have a statement for the logic $state.
+Je suis maintenant arrivé à un stade avancé du tutoriel.
 
-Ok everything is quite predictible but probably not as I expected soon.
+J'utilise la déclaration $state pour la logique de réactivité.
+
+D'accord, tout est assez prévisible, mais probablement pas de la manière à laquelle je m'attendais au départ.
 
 $props connu mais toujours aussi banger.
 
