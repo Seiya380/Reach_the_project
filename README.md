@@ -94,3 +94,9 @@ Svelte change radicalement la donne (le chouchou des devs).
         Isolation totale par défaut : Le CSS est automatiquement "scopé" au composant.
 
         Optimisation : Le compilateur supprime automatiquement les règles CSS que tu n'utilises pas dans ton fichier, réduisant ainsi le poids final.
+
+Conclusion :
+
+En vrai de vrai, Svelte c'est patate quand meme. Genre comment ca en terme de reactivite c'est mieux. React, Pas si reactif que ca. Vue, en vrai c'est le moins assume.
+
+En plus j'ai tester et quand tu foire bah si ca marche pas ca marche pas mais c'est clean en vrai comme resoudre un casse tete. Compare a react ou il te lisse le poil du cul.
