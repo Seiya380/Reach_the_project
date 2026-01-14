@@ -118,4 +118,6 @@ C'est bizarre car il appelle svelkit.{file}, mais je n'arrive pas a trouver les 
 
 Je viens de comprendre l'architecture de sveltekit. au moins je sais comment ca fonctionne, je ne saisis pas encore comment il appelle node 0/1/2.js mais j'ai deja la structure initiale et je viens de capter que je suis sur sveltekit et non svelte raw. donc je vais restart. Alors, j'ai oublie comment avoir le raw svelte. Donc c'est bon je l'ai plus en raw et j'ai la config officiel. j'ai cree un nouveau dossier appelle Alan Tutorial qui me permettra de faire mon bac a sable.
 
-Ok maintenant que j'ai compris le fonctionnement, je dois a present naviguer entre deux fichiers. Je vais me referer a la doc.
+Ok maintenant que j'ai compris le fonctionnement, je dois a present naviguer entre deux fichiers. Je vais me referer a la doc. Je suis un peu debile mais bon... 
+
+Ok je pense avoir quelques bases et sinon j'ai la doc. je cree un nouveau.md file qui va representer un mini projet a faire.
