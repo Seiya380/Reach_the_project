@@ -116,4 +116,6 @@ Je suis actuellement en train de tester svelte sur mon VScode mais bordel commen
 </html>
 C'est bizarre car il appelle svelkit.{file}, mais je n'arrive pas a trouver les symbolique qui redirige aux bons fichiers. 
 
-Je viens de comprendre l'architecture de sveltekit. au moins je sais comment ca fonctionne, je ne saisis pas encore comment il appelle node 0/1/2.js mais j'ai deja la structure initiale et je viens de capter que je suis sur sveltekit et non svelte raw. donc je vais restart. Alors, j'ai oublie comment avoir le raw svelte.
+Je viens de comprendre l'architecture de sveltekit. au moins je sais comment ca fonctionne, je ne saisis pas encore comment il appelle node 0/1/2.js mais j'ai deja la structure initiale et je viens de capter que je suis sur sveltekit et non svelte raw. donc je vais restart. Alors, j'ai oublie comment avoir le raw svelte. Donc c'est bon je l'ai plus en raw et j'ai la config officiel. j'ai cree un nouveau dossier appelle Alan Tutorial qui me permettra de faire mon bac a sable.
+
+Ok maintenant que j'ai compris le fonctionnement, je dois a present naviguer entre deux fichiers. Je vais me referer a la doc.
