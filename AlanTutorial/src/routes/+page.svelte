@@ -1,5 +1,5 @@
 <script>
-	import Nested from './second.svelte';
+    let { data } = $props();
 </script>
 
-<Nested answer={42} />
+<h1>Hello {data.name}</h1>
