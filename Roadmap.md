@@ -1,11 +1,11 @@
 # Reach_the_project
 
-The goal of this repository is to improve my skills in frameworks and working on my web architecture
+Le but du repo est de comprendre ce que signifie les differents webcomponents et les frameworks supporte
 
 First step :
-I will look at React, Vue.js and svelte.
+Regarder Svelte, vue.js, react
 
-Status: I recheck the vue framework on their website.
+Status: Je selectionne et utilise svelte5
 
 J'ai une question sur le framework DOM.
 
@@ -100,3 +100,20 @@ Conclusion :
 En vrai de vrai, Svelte c'est patate quand meme. Genre comment ca en terme de reactivite c'est mieux. React, Pas si reactif que ca. Vue, en vrai c'est le moins assume.
 
 En plus j'ai tester et quand tu foire bah si ca marche pas ca marche pas mais c'est clean en vrai comme resoudre un casse tete. Compare a react ou il te lisse le poil du cul.
+
+Je suis actuellement en train de tester svelte sur mon VScode mais bordel comment les liens se font ? genre j'ai pris un blank page ou j'ai juste "+layout.svelte" et "+page.svelte" mais les app.html qui va devenir un dom possedent plutot: 
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
+C'est bizarre car il appelle svelkit.{file}, mais je n'arrive pas a trouver les symbolique qui redirige aux bons fichiers. 
+
+Je viens de comprendre l'architecture de sveltekit. au moins je sais comment ca fonctionne, je ne saisis pas encore comment il appelle node 0/1/2.js mais j'ai deja la structure initiale et je viens de capter que je suis sur sveltekit et non svelte raw. donc je vais restart. Alors, j'ai oublie comment avoir le raw svelte.
